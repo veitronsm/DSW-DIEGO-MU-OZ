@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 0px;
+    background-color: rgb(115, 117, 122);
+}
+
+article {
+    margin: 20px;
+}
+
+body {
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: coral;
+    background-image: url(C:\Users\User\Documents\GitHub\DSW-DIEGO-MU-OZ\imagenes\inicio.png);
+}
+
+header {
+    font-family: Helvetica;
+    width: 480px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu li>a {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    width: 165px;
+}
+
+#menu li>a:hover {
+    color: #000;
+    background-color: #eaeaea;
+}
+
+#menu>li {
+    float: left;
+    text-align: center
+}
+
+#menu>li>ul {
+    display: none;
+}
+
+#menu>li:hover>ul {
+    display: block;
+}
